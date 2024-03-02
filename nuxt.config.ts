@@ -13,9 +13,13 @@ export default defineNuxtConfig({
         }
       }
     }],
+    '@pinia/nuxt',
   ],
   shadcn: {
     prefix: 'Ui',
     componentDir: './components/ui',
+  },
+  pinia: {
+    storesDirs: ['./stores/**', './custom-folder/stores/**'],
   },
 })
