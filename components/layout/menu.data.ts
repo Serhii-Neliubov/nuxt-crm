@@ -1,48 +1,48 @@
 export interface IMenuItem {
-  name: string,
-  icon: string,
-  url: string,
+	name: string
+	url: string
+	icon: string
 }
 
 export const MENU_DATA: IMenuItem[] = [
-  {
-    icon: 'radix-icons:dashboard',
-    name: 'Home',
-    url: '/',
-  },
-  {
-    icon: 'gridicons:product',
-    name: 'Products',
-    url: '/products',
-  },
-  {
-    icon: 'ph:contactless-payment',
-    name: 'Payment',
-    url: '/payments',
-  },
-  {
-    icon: 'fluent:receipt-28-regular',
-    name: 'Orders',
-    url: '/orders',
-  },
-  {
-    icon: 'mingcute:group-line',
-    name: 'Customers',
-    url: '/customers',
-  },
-  {
-    icon: 'fluent:person-feedback-48-regular',
-    name: 'Feedback',
-    url: '/feedback',
-  },
-  {
-    icon: 'material-symbols:settings-outline',
-    name: 'Settings',
-    url: '/settings',
-  },
-  {
-    icon: 'radix-icons:question-mark',
-    name: 'Help Center',
-    url: '/help',
-  },
+	{
+		icon: 'radix-icons:dashboard',
+		name: 'Home',
+		url: '/',
+	},
+	{
+		name: 'Products',
+		icon: 'ep:goods',
+		url: '/products',
+	},
+	{
+		name: 'Payments',
+		icon: 'ph:contactless-payment',
+		url: '/payments',
+	},
+	{
+		name: 'Orders',
+		icon: 'fluent:receipt-28-regular',
+		url: '/orders',
+	},
+	{
+		name: 'Customers',
+		icon: 'mingcute:group-line',
+		url: '/customers',
+	},
+	{
+		name: 'Feedback',
+		icon: 'fluent:person-feedback-48-regular',
+		url: '/feedback',
+	},
+	{
+		name: 'Settings',
+		icon: 'radix-icons:gear',
+		url: '/settings',
+	},
+	{
+		name: 'Help center',
+		icon: 'radix-icons:question-mark',
+		url: '/help',
+	},
 ]
